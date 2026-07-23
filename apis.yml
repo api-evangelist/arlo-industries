@@ -1,8 +1,30 @@
 aid: arlo-industries
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arlo-industries.png
 name: Arlo Industries
-description: Arlo Industries is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Arlo Industries is a San Francisco defense hardware company (Y Combinator,
+  Spring 2026) building a passive sensing network for detecting and tracking
+  drones and aerial threats without traditional radar. Its product, Mentat, uses
+  a distributed mesh architecture of low-cost sensors that cooperatively detect
+  and track targets in 3D while remaining invisible to the threats they monitor.
+  The company frames its approach around "asymmetric economics" — sensor
+  deployment cost grows linearly while tracking accuracy grows exponentially —
+  making the system more scalable than conventional radar installations. Arlo
+  has demonstrated its technology with Ukrainian military operators on active
+  frontlines and maintains partnerships across the US, Ukraine, and Northern
+  Europe. As an early-stage hardware startup it publishes no public API,
+  developer program, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/arlo-industries/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,38 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-batch: Spring 2026
+x-location: San Francisco, CA, USA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Defense
+- Hardware
+- Hard Tech
+- Drones
+- Counter-UAS
+- Sensing Network
+- Y Combinator
 apis: []
+common:
+- name: Website
+  url: https://arlo1.com/
+  type: Website
+- name: Blog
+  url: https://arlo1.com/blog
+  type: Blog
+- name: Careers
+  url: https://arlo1.com/careers
+  type: Careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
